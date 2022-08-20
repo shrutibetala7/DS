@@ -6,6 +6,7 @@ using namespace std;
 bool _checkEdit(string a,string b){
 int arr[27];
 std::fill_n(arr,27,0);
+
 int counter=0; //for checking replacement
 
 for(int i=0;i<a.length();i++){
@@ -20,6 +21,7 @@ for(int i=0;i<b.length();i++){
         arr[pos]++;
         counter++;
     }
+    //allowing only one replacement
     if(counter>1)
      return false;   
 }
