@@ -18,12 +18,13 @@ for(int i=0;i<b.length();i++){
     int pos=int(b[i])-'a';
     if(arr[pos]==0)
     {
+          //allowing only one replacement
+    if(counter>1)
+    { return false;   }
         arr[pos]++;
         counter++;
     }
-    //allowing only one replacement
-    if(counter>1)
-     return false;   
+  
 }
 
   return true;  
