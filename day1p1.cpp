@@ -14,7 +14,7 @@ for(int i=0;i<r;i++){
         for(int k=0;k<r;k++){
             matDup[i][k]=mat[i][k];
         }
-    }
+
 
 
 for(int i=0;i<r;i++){
