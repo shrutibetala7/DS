@@ -30,7 +30,6 @@ while(ss>>word){
  result.append(word);
  result.append("%20");
 }
-
 return result.erase(result.length()-3);
 }
 
